@@ -1,6 +1,6 @@
 {
   "Home Assistant": {
-    "description": "Home Assistant is an open-source home automation platform running on Python 3. Track and control all devices at home and automate control. (my version)",
+    "description": "Home Assistant is an open-source home automation platform running on Python 3. Track and control all devices at home and automate control.",
     "ui": {
       "slug": ""
     },
@@ -8,7 +8,8 @@
     "version": "1.0.stable",
     "containers": {
       "home-assistant": {
-        "image": "homeassistant/home-assistant:stable",
+        "image": "homeassistant/home-assistant",
+	"tag": "stable",
         "launch_order": 1,
         "opts": [
           [
