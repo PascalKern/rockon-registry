@@ -5,10 +5,10 @@
       "slug": ""
     },
     "website": "https://home-assistant.io/",
-    "version": "1.0",
+    "version": "1.0.stable",
     "containers": {
       "home-assistant": {
-        "image": "homeassistant/home-assistant",
+        "image": "homeassistant/home-assistant:stable",
         "launch_order": 1,
         "opts": [
           [
